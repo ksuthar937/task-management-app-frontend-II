@@ -1,0 +1,32 @@
+.outer {
+  margin: 40px 50px;
+  /* height: 500px;
+    width: 360px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginform {
+  width: 400px;
+}
+
+.hero {
+  width: 300px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 1065px) {
+  .outer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  }
+  .hero {
+    width: 400px;
+    height: 200px;
+  }
+  .loginform {
+    width: 400px;
+  }
+}

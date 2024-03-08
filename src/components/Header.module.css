@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 5px 10px 5px;
+  /* background-color: #3e93e4; */
+  background-color: #f9d850;
+  padding: 10px 5px 0px 5px;
+}
+
+.border1 {
+  background-color: #ffe156;
+  height: 10px;
+  width: 100%;
+}
+
+.border2 {
+  background-color: #ffffff;
+  height: 10px;
+  width: 100%;
+}
+
+.border3 {
+  background-color: #3777ff;
+  height: 10px;
+  width: 100%;
+}
